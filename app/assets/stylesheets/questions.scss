@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+  background: url('https://cdn.wallpapersafari.com/64/79/9SV7Cm.jpg');
+}
+
+.title {
+  font-weight: 400;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.message {
+  color: lightgray;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.container {
+  border: solid 1px black;
+  position: relative;
+}
+
+.position {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.center {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+}
+
+.question {
+  border-left: 6px solid lightgray;
+  width: 700px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.answer {
+  border-left: 6px solid #66ff66;
+  width: 700px;
+  padding: 10px;
+}
